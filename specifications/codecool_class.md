@@ -66,3 +66,11 @@ Gives back a student with the same full name as the argument from ```students```
 
 #### Return value
 ```Mentor``` object
+
+Arguments
+check_energy
+count_students
+count_mentors
+
+
+
