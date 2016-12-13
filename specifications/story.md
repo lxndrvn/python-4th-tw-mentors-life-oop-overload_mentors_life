@@ -1,30 +1,29 @@
 # Story
 
-1. Megérkezés, alacsony energia szint, kávézás, cigizés
-2. Létszám ellenőrzés, névsor
-3. Prezentáció mentor 
-ember szöveg (kérdések) 
-mentor szöveg (válaszok) nő a tudás
-random 10 kérdés
-4. Szünet
-Nikotin, hangulat, energia
+1. Arriving, low energy, drinking coffee, cig
+2. Attandance
+3. Presentation by mentor
+person text (questions) 
+mentor text (answers) upgrade knowledge
+random 10 questions
+4. Break
+Nicotine, hapiness, energy
 mentors: soft skills
 
-5. Feladatok
+5. Tasks
 
-amíg a tudás eléri azt a szintet
-a BFAHoz
+until knowledge reach “BFA” level
 
-Private mentoring helyett vizsga: BFA
+BFA instead of private mentoring
 
-kocsmázás, házibuli
+party
 
 
-kellenek cssv fileok 
+need csv files
 
-Personba:
-Kávé = plusz energia
-energy_level lesz a változó majd
+Person:
+Coffee = upgrade energy
+variable: energy_level
 coffee
 lunch
 
@@ -36,30 +35,29 @@ is_hungry
 knowledge_level (student)
 
 
-csak mentorra jellemző:
+only mentors:
 soft_skills
 
-energy level kezdoérték
-hangulat kezdőérték
-knowledge level kezdőérték
+energy level starting point
+hapiness level starting point
+knowledge level starting point
 is_hungry
 nicotine_tolerance
 
-MENTOR LEFIZETÉSE
+BRIBERY MENTOR
 
-
-ENERGIA PM
-HANGULAT PM
-befolyásolja az éhség, a nikotin, 
-TUDÁS P
+ENERGIA - PM
+HAPINESS - PM
+hunger, nicotine
+KNOWLEDGE
 bfa, classes, mentoring, pair programming
-NIKOTIN PM
-szünet
-SOFTSKILLS M
+NICOTINE - PM
+break
+SOFTSKILLS - M
 
 
 
-PÉLDA
+EXAMPLE
 
     First we start with the counting the students, if the energy level is low, the mentors tells us to do some gym exercises.
     Than the education starts, and we would make a project.
