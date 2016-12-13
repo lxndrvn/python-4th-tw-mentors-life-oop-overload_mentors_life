@@ -3,9 +3,7 @@
 ## Description
 This class represents the students @ Codecool.
 
-
 ## Parent class
-
 Person
 
 ## Attributes
@@ -22,33 +20,26 @@ creat_by_csv
 Read the students from a file
 
 ### Arguments
-
 file_name
 
     Type: string
     Description: Waits for a CSV file
 
 ### Return value
-
 Return a list which containing the students.
 
 ## Instance Methods
-__init__
-
+### ```__init__```
 The constructor of the object
 
 ### Arguments
-
 All of the arguments of the class itself with knowledge.
 
-## knowledge_level
-
-increase knowledge_level depend on the different events
+### ```knowledge_level_changer```
+increase knowledge_level
 
 ### Arguments
-
-Delta: amount of changing
+the amount of changing
 
 ### Return value
-
 The new knowledge level.

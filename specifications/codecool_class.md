@@ -46,9 +46,10 @@ All of the arguments of the class itself.
 #### Return value
 None
 
-### ```find_student_by_full_name```
+### ```check_students```
 
 Gives back a student with the same full name as the argument from ```students```
+
 #### Arguments
 * ```full_name```
   * data_type: string
@@ -57,7 +58,7 @@ Gives back a student with the same full name as the argument from ```students```
 #### Return value
 ```Student``` object
 
-### ```find_mentor_by_full_name```
+### ```check_mentors```
 
 #### Arguments
 * ```full_name```
@@ -67,10 +68,15 @@ Gives back a student with the same full name as the argument from ```students```
 #### Return value
 ```Mentor``` object
 
-Arguments
-check_energy
-count_students
-count_mentors
+### ```check_energy_level```
 
+Shows the energy level.
+
+#### Arguments
+  * data_type: integer
+  
+#### Return Value
+
+None
 
 

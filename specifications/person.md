@@ -29,51 +29,40 @@ This does not have a parent class.
         description: shows the happiness of the person
 
 ## Instance methods
-###__init__
-
+### ```__init__```
 The constructor of the object.
+
 ### Arguments
-
 All of the arguments of the class itself.
-### Return value
 
+### Return value
 None
 
-### energy_level_changer
+### ```energy_level_changer```
+increase energy_level
 
-increase energy_level depend on the different events
 ## Arguments
-
-Delta: amount of changing
+amount of changing
 
 ## Return value
-
 The new energy level
 
-### happiness_level_changer
+### ```happiness_level_changer```
+increase happiness_level 
 
-increase happiness_level depend on the different events
 ## Arguments
+the amount of changing
 
-Delta: amount of changing
 ## Return value
+The new happiness level.
 
-The new happiness level
-
-# nicotine_level
+### ```nicotine_level```
 increase energy_level of the persons participating
-### Arguments
-
-None
-### Return value
-
-None
-
-#mood level
+increase happiness_level of the persons participating
 
 ### Arguments
+the amount of changing
 
-None
 ### Return value
-
-None
+New happiness level
+New energy level
