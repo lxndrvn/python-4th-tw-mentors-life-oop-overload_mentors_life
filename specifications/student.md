@@ -10,9 +10,6 @@ Person
     knowledge_level
         data type: integer
         description: stores the knowledge levels of the students
-    retrospective_objects
-        data type: string
-        description: stores the thoughts of the students
 
 ## Class Methods
 creat_by_csv
@@ -43,3 +40,14 @@ the amount of changing
 
 ### Return value
 The new knowledge level.
+
+### ```work on project```
+
+Changes project.code_complete to true.
+
+### Arguments
+project
+
+### Return value
+None
+

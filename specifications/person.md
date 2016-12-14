@@ -38,31 +38,16 @@ All of the arguments of the class itself.
 ### Return value
 None
 
-### ```energy_level_changer```
-increase energy_level
-
-## Arguments
-amount of changing
-
-## Return value
-The new energy level
-
-### ```happiness_level_changer```
-increase happiness_level 
-
-## Arguments
-the amount of changing
-
-## Return value
-The new happiness level.
-
-### ```nicotine_level```
-increase energy_level of the persons participating
-increase happiness_level of the persons participating
+### ```smoke```
+Increase energy and happiness level.
 
 ### Arguments
-the amount of changing
+The amount of changing
 
 ### Return value
 New happiness level
 New energy level
+
+### ```drink coffee```
+Increase energy and happiness level.
+

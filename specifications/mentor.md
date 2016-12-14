@@ -6,10 +6,12 @@ This class contains the data of the mentors.
 ## Parent class
 Person
 
-## Attribute
-fullname
-    data type: string
-    description: stores the name of the mentors
+## Attribute 
+soft_skill
+
+soft_skill = [0]  - [20] low.level print('')  
+soft_skill = [21] - [80]  mid.level print('')  
+soft_skill = [81] - [100] max.level print('')
     
 ## Class method
 create_by_csv
@@ -40,3 +42,16 @@ None
     
 ### Return value
 The new soft skill level. 
+
+
+### ```teach```
+Increase the knowledge level of the students.
+Changes the project's grade.
+
+### ```grade_project```
+
+### Arguments
+project
+grade
+
+### Return value
