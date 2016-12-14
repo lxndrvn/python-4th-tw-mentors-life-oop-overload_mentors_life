@@ -7,11 +7,9 @@ This class contains the data of the mentors.
 Person
 
 ## Attribute 
-soft_skill
-
-soft_skill = [0]  - [20] low.level print('')  
-soft_skill = [21] - [80]  mid.level print('')  
-soft_skill = [81] - [100] max.level print('')
+    soft_skill_level
+        data type: integer
+        description: stores the soft_skill levels of the mentors
     
 ## Class method
 create_by_csv
@@ -35,23 +33,24 @@ All of the arguments of the class itself.
 ### Return value
 None
 
-### ```soft_skill_level_changer```
+### ```check_energy_level```
+Shows the average energy level of all students and mentors in the class.
 
 ### Arguments
-    data type: integer
-    
-### Return value
-The new soft skill level. 
 
+### Return Value
+    data type: integer
 
 ### ```teach```
 Increase the knowledge level of the students.
 Changes the project's grade.
+Increase the soft skill level of the mentors.
 
 ### ```grade_project```
 
 ### Arguments
-project
-grade
+None
 
 ### Return value
+data type: integer
+

@@ -66,14 +66,3 @@ Gives back a student with the same full name as the argument from ```students```
 #### Return value
 ```Mentor``` object
 
-### ```lunchbreak```
-Increase happiness, energy and nicotine level of all students and mentors. 
-
-#### Return value
-None
-
-### ```check_energy_level```
-Shows the average energy level of all students and mentors in the class.
-
-#### Return Value
-    data type: integer

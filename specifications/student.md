@@ -32,21 +32,12 @@ The constructor of the object
 ### Arguments
 All of the arguments of the class itself with knowledge.
 
-### ```knowledge_level_changer```
-increase knowledge_level
-
-### Arguments
-the amount of changing
-
-### Return value
-The new knowledge level.
-
 ### ```work on project```
 
 Changes project.code_complete to true.
 
 ### Arguments
-project
+None
 
 ### Return value
 None
