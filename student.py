@@ -8,7 +8,6 @@ class Student(Person):
     def __init__(self, first_name, last_name, year_of_birth, gender, energy_level, happiness_level, knowledge_level):
         super().__init__(first_name, last_name, year_of_birth, gender, energy_level, happiness_level)
         self.knowledge_level = knowledge_level
-        
 
     @staticmethod
     def create_by_csv(csv_file):

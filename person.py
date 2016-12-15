@@ -17,10 +17,13 @@ class Person:
 
     def drink_coffee(self, delta):
         self.energy_level += int(delta)
+        
         return self.energy_level
 
     def smoke(self, delta):
         self.happiness_level += int(delta)
         self.energy_level += int(delta)
+        
         return self.happiness_level
+        
         return self.energy_level
