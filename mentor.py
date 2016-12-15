@@ -1,22 +1,31 @@
 from person import Person
+from student import Student
 import csv
 
 
 class Mentor(Person):
 
-    def __init__(self, fullname, soft_skill_level):
+    def __init__(self, nickname, soft_skill_level):
         super().__init__(*args)
         self.fullname = fullname
         self.soft_skill_level = int(soft_skill)
 
-    def soft_skill_level_changer(self, charger):
-        self.nicotine_level += int(delta)
-        return self.nicotine_level
+    def teach():
+        self.soft_skill_level += int(delta)
+        student.knowledge_level += int(delta)
+        return student
 
-    def create_by_csv(cls, file_name):
+    def grade_project(self, name, who, code_complete):
+        self.name = name
+        self.who = who
+        self.code_complete = code_complete
+
+    @classmethod
+    def create_by_csv(file_name="mentors.csv"):
         mentor_list = []
-        with open(file_name, "r") as f:
-            reader = csv.reader(f, delimiter=",")
-            for i in reader:
-                mentor_list.append(Mentor(i[0], i[1], i[2], i[3], i[4], i[5], i[6]))
-        return mentor_list
+        path = os.path.abspath("./data/%s" % file_name)
+        with open(path, newline='') as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                mentor_list.append(row)
+        return(mentor_list)

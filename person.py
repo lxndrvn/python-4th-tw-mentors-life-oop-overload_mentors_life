@@ -4,8 +4,7 @@ import random
 class Person:
     Gender = ['male', 'female', 'not sure']
 
-    def __init__(self, first_name=None, last_name=None,
-                 year_of_birth=None, gender=None, energy_level, happiness_level, nicotine_level):
+    def __init__(self, first_name, last_name, year_of_birth, gender, energy_level, happiness_level):
         if gender not in self.Gender:
             raise ValueError('%s is not a valid gender.' % gender)
 
@@ -16,22 +15,12 @@ class Person:
         self.energy_level = int(energy_level)
         self.happiness_level = int(happiness_level)
 
-    def energy_level_changer(self, delta):
+    def drink_coffee(self, delta):
         self.energy_level += int(delta)
         return self.energy_level
 
-    def happiness_level_changer(self, delta):
+    def smoke(self, delta):
         self.happiness_level += int(delta)
+        self.energy_level += int(delta)
         return self.happiness_level
-
-    def nicotine_level_changer(self, delta):
-        self.nicotine_level += int(delta)
-        return self.nicotine_level
-
-    def nicotine_level_charger(self):
-        if self.energy_level < 100:
-            self.energy_level += 25
-        if self.happiness_level < 100:
-            self.energy_level += 20
-        if self.nicotine_level < 100:
-            self.nicotine_level += 50
+        return self.energy_level
