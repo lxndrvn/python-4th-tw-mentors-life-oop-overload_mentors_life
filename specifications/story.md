@@ -7,4 +7,11 @@
 5. The mentor gives the daily task to the students.
 6. Tired CodeCool people do yoga. 
 
+##Special event details
+4. LUNCHBREAK
+
+5. PROJECT
+
+6. YOGA
+
 

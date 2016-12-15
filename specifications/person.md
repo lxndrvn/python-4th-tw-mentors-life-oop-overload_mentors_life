@@ -49,5 +49,5 @@ New happiness level
 New energy level
 
 ### ```drink coffee```
-Increase energy and happiness level.
+Increase energy level.
 

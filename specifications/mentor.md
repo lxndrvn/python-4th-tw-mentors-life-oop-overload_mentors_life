@@ -7,6 +7,9 @@ This class contains the data of the mentors.
 Person
 
 ## Attribute 
+    nickname
+        data: string
+    
     soft_skill_level
         data type: integer
         description: stores the soft_skill levels of the mentors
@@ -47,6 +50,7 @@ Changes the project's grade.
 Increase the soft skill level of the mentors.
 
 ### ```grade_project```
+Increase the soft skill level of the mentors.
 
 ### Arguments
 None
