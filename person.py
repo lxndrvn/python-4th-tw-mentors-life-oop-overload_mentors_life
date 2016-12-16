@@ -9,6 +9,7 @@ class Person:
             raise ValueError('%s is not a valid gender.' % gender)
         self.first_name = first_name
         self.last_name = last_name
+        self.full_name = self.first_name + self.last_name
         self.year_of_birth = int(year_of_birth)
         self.gender = gender
         self.energy_level = int(energy_level)

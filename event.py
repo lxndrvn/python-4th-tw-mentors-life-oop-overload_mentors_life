@@ -5,4 +5,3 @@ class Event:
         self.location = location
         self.time = time
         self.participants = participants
-        

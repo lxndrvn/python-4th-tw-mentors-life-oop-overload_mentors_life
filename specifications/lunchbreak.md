@@ -2,7 +2,7 @@
 
 ## Description
 
-This class represents the 
+This class represents the lunchbreak. 
 
 ## Parent Class
 
