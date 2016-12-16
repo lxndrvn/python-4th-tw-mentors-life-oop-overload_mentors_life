@@ -1,8 +1,8 @@
 import os
+import csv
 
 from person import Person
 from student import Student
-import csv
 
 class Mentor(Person):
     def __init__(self, first_name, last_name, year_of_birth, gender, energy_level, happiness_level, nickname, soft_skill_level):
@@ -29,7 +29,8 @@ class Mentor(Person):
         path = os.path.abspath("./data/%s" % file_name)
         with open(path, newline='') as csv_file:
             reader = csv.reader(csv_file)
-            for row in reader:
-                mentor_list.append(row)
-        return(mentor_list)
-
+        for row in reader:
+            new_mentor = Mentor(*row)
+            mentor_list.append(new_mentor)
+        return mentor_list
+    

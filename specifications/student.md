@@ -32,6 +32,9 @@ The constructor of the object
 ### Arguments
 All of the arguments of the class itself with knowledge.
 
+### Return value
+None
+
 ### ```work on project```
 
 Changes project.code_complete to true.

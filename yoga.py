@@ -1,32 +1,26 @@
 import random
 
-class Lunchbreak():
+class Yoga():
     def __init__(self, happiness_level, energy_level, knowledge_level, soft_skill_level):
         self.happiness_level = happiness_level
         self.energy_level = energy_level
         self.knowledge_level = knowledge_level
         self.soft_skill_level = soft_skill_level
-        
-    def story_line_changer(self):
+    
+    def story_line_changer(self, location):
+        i = 0
         i = random.randrange(0, 3)
 
         if i == 0:
-            print('I am very hungry, I will eat alone!')
+            print('I will do some excercise allone, {}'.format(location))
             self.happiness_level_amount()
             self.energy_level_amount()
         elif i == 1:
-            print('I am very hungry, but I will eat with one Mentor!')
+            print('I will do some excercise with  one mentor, maybe I will learn something, {}'.format(location))
             self.happiness_level_amount()
             self.energy_level_amount()
             self.knowledge_level_amount()
-        else:
-            print('I am very hungry, but I will eat with other students!')
-            self.happiness_level_amount()
-            self.energy_level_amount()
-            self.knowledge_level_amount()
-            print('I saw, the Mentor went to learn about soft skill')
-            self.soft_skill_level_amount()
-
+      
     def happiness_level_amount(self):
         if self.happiness_level < 50:
             self.happiness_level += random.randrange(10, 51, 10)
@@ -73,3 +67,19 @@ class Lunchbreak():
         elif self.soft_skill_level == 100:
             print('I am The Best!!!... soft skill level rich the maximum, 100 value')
             
+    
+    def location(self):
+        location = ('')
+        i = 0
+        i = random.randrange(0, 3)
+
+        if i == 0:
+            return location = ('in the classroom')
+            
+        elif i == 1:
+            return location = ('in the meeting room')
+        
+        else: 
+            return location = ('on a street')   
+    
+        
