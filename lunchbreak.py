@@ -1,14 +1,12 @@
 import random
 
-class Lunch_break():
+class Lunchbreak():
     def __init__(self, happiness_level, energy_level, knowledge_level, soft_skill_level):
         self.happiness_level = happiness_level
         self.energy_level = energy_level
         self.knowledge_level = knowledge_level
         self.soft_skill_level = soft_skill_level
-    
     def story_line_changer(self):
-        i = 0
         i = random.randrange(0, 3)
 
         if i == 0:
