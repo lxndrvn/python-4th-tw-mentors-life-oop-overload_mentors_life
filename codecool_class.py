@@ -6,8 +6,7 @@ class CodecoolClass:
         self.location = location
         self.year = year
         self.mentors = mentors
-        self.students = students
-        
+        self.students = students           
     @classmethod
     def generate_local(cls):
         location = "Budapest"

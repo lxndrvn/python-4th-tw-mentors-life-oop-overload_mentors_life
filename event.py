@@ -1,5 +1,3 @@
-
-
 class Event:
     
     def __init__(self, name, location, time, participants):

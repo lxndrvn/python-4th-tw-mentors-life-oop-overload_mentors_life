@@ -1,11 +1,6 @@
-from event import Event
-from person import Person
-from student import Student
-from mentor import Mentor
-
 import random
 
-class lunchbreak():
+class Lunch_break():
     def __init__(self, happiness_level, energy_level, knowledge_level, soft_skill_level):
         self.happiness_level = happiness_level
         self.energy_level = energy_level
@@ -30,10 +25,8 @@ class lunchbreak():
             self.happiness_level_amount()
             self.energy_level_amount()
             self.knowledge_level_amount()
-            print('I saw, the Mentor went to learn about Softskill')
+            print('I saw, the Mentor went to learn about soft skill')
             self.soft_skill_level_amount()
-
-
 
     def happiness_level_amount(self):
         if self.happiness_level < 50:
@@ -81,7 +74,3 @@ class lunchbreak():
         elif self.soft_skill_level == 100:
             print('I am The Best!!!... soft skill level rich the maximum, 100 value')
             
-            
-        
-        
-        
